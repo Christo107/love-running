@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -19,6 +20,7 @@ h1, h2 {
     letter-spacing: 4px;
     color: #252525;
 }
+
 #logo {
     float: left;
     font-size: 280%;
@@ -198,9 +200,9 @@ hr {
     width: 20%;
     height: 300px;
     float: left;
-    padding: 30px 10px;
+    padding: 30px 0 0 10px;
     text-align: center;
-    border: 2px solid #fff;
+    border: 2px solid white;
     box-sizing: border-box;
 }
 
@@ -218,12 +220,12 @@ footer {
     text-align: center;
 }
 
-.social-networks li {
+.social-networks > li {
     display: inline;
 }
 
 .social-networks i {
-    font-size: 150%;
+    font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
@@ -235,7 +237,7 @@ footer {
     clear: both;
     line-height: 0;
     column-count: 4;
-    column-gap: 0px;
+    column-gap: 0;
 }
 
 #photos > img {
@@ -283,7 +285,7 @@ footer {
     }
 }
 
-/* For larger to medium screen sizes from 950px wide and down */
+/* For medium screen sizes from 950px wide and down */
 
 @media screen and (max-width: 950px) {
 
@@ -325,7 +327,7 @@ footer {
     
 }
 
-/* For larger to medium screen sizes from 950px wide and down */
+/* For small screen sizes below 800px width */
 
 @media screen and (max-width: 800px) {
     
